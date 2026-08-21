@@ -5,7 +5,7 @@ function App() {
   return (
     <>
       <header>Logo</header>
-      <main>
+      <main className="main-content">
         <section>
           <h1>Interested in our business pricing?</h1>
           <p>

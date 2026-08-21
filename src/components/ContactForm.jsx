@@ -1,6 +1,6 @@
 function ContactForm() {
   return (
-    <form action="">
+    <form action="" className="form">
       <div>
         <label htmlFor="">Name</label>
         <input type="text" />
