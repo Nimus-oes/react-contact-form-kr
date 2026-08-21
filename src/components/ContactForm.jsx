@@ -1,15 +1,15 @@
 function ContactForm() {
   return (
     <form action="" className="form">
-      <div>
+      <div className="form-item">
         <label htmlFor="">Name</label>
         <input type="text" />
       </div>
-      <div>
+      <div className="form-item">
         <label htmlFor="">Company Email</label>
         <input type="email" />
       </div>
-      <div>
+      <div className="form-item">
         <label htmlFor="">Company Size</label>
         <select name="" id="">
           <option value="">50-100 employees</option>
@@ -17,17 +17,19 @@ function ContactForm() {
           <option value="">Over 200 employees</option>
         </select>
       </div>
-      <div>
+      <div className="form-item">
         <label htmlFor="">Subject</label>
-        <option value="">Building Landing Pages</option>
-        <option value="">About Pricing</option>
-        <option value="">Others</option>
+        <select name="" id="">
+          <option value="">Building Landing Pages</option>
+          <option value="">About Pricing</option>
+          <option value="">Others</option>
+        </select>
       </div>
-      <div>
+      <div className="form-item full-width-item">
         <label htmlFor="">Message</label>
         <textarea name="" id=""></textarea>
       </div>
-      <button>Contact Sales</button>
+      <button className="full-width-item">Contact Sales</button>
     </form>
   );
 }
